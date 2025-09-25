@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Câu hỏi 7</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      max-width: 700px;
+      margin: auto;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .question {
+      margin-bottom: 30px;
+    }
+
+    .answers {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 10px;
+      padding-left: 10px;
+    }
+
+    .answers label {
+      display: flex;
+      align-items: center;
+    }
+
+    input[type="radio"] {
+      transform: scale(1.2);
+      margin-right: 8px;
+    }
+
+    @media (max-width: 600px) {
+      .answers {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="question">
+    <p><strong>Câu 7:</strong> Tôi lo lắng trong một thời gian dài sau khi trải qua một chuyện không tốt đẹp.</p>
+    <div class="answers">
+      <label><input type="radio" name="q7" value="0"> Đúng (0 điểm)</label>
+      <label><input type="radio" name="q7" value="1"> Không đúng (1 điểm)</label>
+      <label><input type="radio" name="q7" value="1"> Không rõ (1 điểm)</label>
+    </div>
+  </div>
+
+</body>
+</html>
